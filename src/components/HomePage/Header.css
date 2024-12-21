@@ -1,0 +1,56 @@
+header {
+    background: url("../../assets/images/landing.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 50px;
+
+}
+
+header h2 {
+    color: #43121d;
+    width: 60%;
+    margin-top: 20 0px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+}
+header p {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+header .order {
+    background-color: #a82d49;
+    border:none;
+    color :white;
+    padding: 10px 20px;
+    margin: 30px 30px 0px 0px;
+    box-shadow: 0px 0px 6px #bdbbbb;
+    font-weight: 700;
+    transition: 0.5s;
+    border: 2px solid #a82d49;
+}
+header .order:hover {
+    background-color: white;
+    color :#a82d49;
+    border: 2px solid #43121d;
+}
+header .learn {
+    background-color: white;
+    border:none;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    box-shadow: 0px 0px 6px #bdbbbb;
+    font-weight: 700;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+header .learn:hover {
+    background-color: #fff;
+    border: 2px solid #43121d;
+}

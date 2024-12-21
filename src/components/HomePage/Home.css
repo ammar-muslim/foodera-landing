@@ -1,0 +1,184 @@
+/* تنسيقات لقسم الأرقام */
+.numbers {
+    background-color: #a82d49;
+    color: white;
+    padding: 0px 50px;
+  }
+  
+  .numbers .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+    padding: 50px;
+    font-family: "Tajawal";
+  }
+  
+  .numbers .row .col-md-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .numbers .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .numbers .col-md-3 {
+    flex: 1 1 20%; /* تعديل العرض الافتراضي */
+    margin: 10px;
+  }
+  
+  .numbers h2,
+  .numbers h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Tajawal";
+    color: white;
+  }
+  
+  .numbers h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .numbers h6 {
+    font-size: 18px;
+  }
+  
+  .pride {
+    padding: 50px 50px;
+    background-color: #fff;
+}
+
+.pride img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.pride h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pride p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.pride button {
+    background-color: #a82d49;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    transition: 0.5s;
+    border: 2px solid #a82d49;
+}
+.pride button:hover {
+    box-shadow: 2px 2px 15px #ddd;
+}
+
+
+.pride button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.new-section {
+    padding: 50px 50px;
+    background-color: #eef2f3;
+}
+
+.new-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.new-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.new-section img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    max-width: 400px; 
+    border-radius: 10px;
+    
+}
+
+.input-section {
+    padding: 50px 50px;
+    background-color: #f9f9f9;
+}
+
+    .input-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .input-section .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .input-section .form-group label {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .input-section .form-control {
+        font-size: 16px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .input-section .btn-primary {
+        background-color: #a82d49;
+        border-color: #a82d49;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .footer {
+        padding: 20px 50px;
+        background-color: #333;
+        color: #fff;
+    }
+    
+  .footer .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .footer p {
+        margin: 0;
+    }
+    
+  .footer .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer .social-links li {
+    margin-right: 15px;
+  }
+  
+  .footer .social-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
